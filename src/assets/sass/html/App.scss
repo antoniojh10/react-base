@@ -1,0 +1,17 @@
+@import '../lib/Commons.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  @extend %full-page;
+  @extend %center-total;
+  font-family: $MontseM;
+}
+#app {
+  width: 100vw;
+  padding: 5vw;
+  background-color: $white;
+}

@@ -1,0 +1,13 @@
+// Colors
+$black: #3d484e;
+$white: #ffffff;
+$gray: #9e9e9e;
+
+// Fonts
+@font-face {
+  font-family: MontseM;
+  font-weight: 400;
+  src: url('../../fonts/Montserrat-Medium.ttf') format('truetype');
+}
+
+$MontseM: MontseM;
