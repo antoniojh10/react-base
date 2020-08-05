@@ -1,0 +1,1 @@
+@font-face{font-family:MontseM;font-weight:400;src:url(/poke-lib/assets/e2d60bc49517598c0ce8b98f8d4e579f.ttf) format("truetype")}body{height:100vh;width:100%;display:flex;justify-content:center;align-items:center}*{box-sizing:border-box;margin:0;padding:0}body{font-family:MontseM}#app{width:100vw;padding:5vw;background-color:#fff}
