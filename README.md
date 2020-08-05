@@ -22,6 +22,10 @@ Run: `npm start`
 
 An you will have a new tab in your browser with the `http://localhost:9000`
 
+## Prebuild
+
+Change `publicPath: '/react-base/'` for `publicPath: '/'` before build.
+
 ## Building Production
 
 For the first time:
