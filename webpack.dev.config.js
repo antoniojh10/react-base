@@ -29,7 +29,22 @@ module.exports = {
       },
       {
         test: /\.(s*)css$/,
-        use: ['style-loader', 'css-loader', 'sass-loader'],
+        use: [
+          'style-loader',
+          'css-loader',
+          {
+            loader: 'resolve-url-loader',
+            options: {
+              root: '',
+            },
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              sourceMap: true,
+            },
+          },
+        ],
       },
       {
         test: /\.(png|gif|jpg|jpeg|svg|woff|eot|ttf|svg|mp4|webm)$/,
